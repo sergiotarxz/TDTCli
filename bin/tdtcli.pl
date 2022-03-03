@@ -74,6 +74,7 @@ sub select_channel {
     close(STDERR);
     close(STDIN);
     system 'mpv', $current_channel_options->[0]{url};
+    exit;
 }
 
 sub show_channels {
