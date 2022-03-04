@@ -12,6 +12,11 @@ Install the program using cpan:
 cpan .
 ```
 
+If you get errors because missing libraries you
+should install the headers libs of openssl and
+the openssl command-line utils, this is distro
+specific.
+
 If you get prompted by questions press intro to
 use the defaults and run: (Supposing your are
 using bash.)
@@ -46,3 +51,17 @@ tdtcli ~>
 ```
 
 Now type `help` to get further instructions of usage.
+
+## Sugar
+
+In order to get advanced editing in TDTCli
+you will have to install `Term::ReadLine::Gnu`
+you can do that using:
+
+```
+cpan Term::ReadLine::Gnu
+```
+
+If you get errors related to missing libraries
+then you will have to install the headers for
+ncurses and readline, this is distro specific.
