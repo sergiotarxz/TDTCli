@@ -2,6 +2,11 @@
 
 A cli program written in Perl to watch the TDT.
 
+## Dependencies
+
+In order of this program to do something is
+absolutelly required the `mpv` program.
+
 ## How to install
 
 Clone this repository and `cd` into the new directory.
