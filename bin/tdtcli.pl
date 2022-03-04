@@ -32,7 +32,7 @@ const my $COMMANDS => {
         description => 'Select a ambit.',
         action      => \&select_ambit
     },
-    channnels => {
+    channels => {
         description => 'List available channels.',
         action      => \&show_channels
     },
@@ -60,7 +60,7 @@ my $attribs = $term->Attribs;
 $attribs->{completion_entry_function} = $attribs->{list_completion_function};
 $attribs->{completion_word}           = [ keys %$COMMANDS ];
 
-while ( defined( my $line = $term->readline('~> ') ) ) {
+while ( defined( my $line = $term->readline('tdtcli ~> ') ) ) {
     process_line($line);
     $term->addhistory($line);
 

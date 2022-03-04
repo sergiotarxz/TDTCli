@@ -9,6 +9,8 @@ my $build = Module::Build->new(
         'Mojolicious' => 0,
         'JSON' => 0,
         'Const::Fast' => 0,
+        'IO::Socket::SSL' => 0,
+        'Net::SSLeay' => 0,
     },
 );
 $build->create_build_script;
