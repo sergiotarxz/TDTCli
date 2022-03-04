@@ -55,8 +55,9 @@ Now type `help` to get further instructions of usage.
 ## Sugar
 
 In order to get advanced editing in TDTCli
-you will have to install `Term::ReadLine::Gnu`
-you can do that using:
+including auto-completion you will have to
+install `Term::ReadLine::Gnu` you can do 
+that using:
 
 ```
 cpan Term::ReadLine::Gnu
