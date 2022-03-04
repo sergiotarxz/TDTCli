@@ -8,6 +8,7 @@ my $build = Module::Build->new(
     requires => {
         'Mojolicious' => 0,
         'JSON' => 0,
+        'Const::Fast' => 0,
     },
 );
 $build->create_build_script;
