@@ -2,6 +2,10 @@
 
 A cli program written in Perl to watch the TDT.
 
+## Demostration
+
+![A demo video of the program](https://gitea.sergiotarxz.freemyip.com/sergiotarxz/TDTCli/raw/branch/main/demostration.gif)
+
 ## Dependencies
 
 In order of this program to do something is
